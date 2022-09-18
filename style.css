@@ -17,11 +17,15 @@ tlačítko Facebook aktivní: #2b406e
 body {
     background-color: #b2bec3;
     font-size: 18px;
+    font-family: 'Nunito', sans-serif;
 }
 
 h1 {
     color: #d63031;
-    font-size: 36px
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin:0
 }
 
 .box {
@@ -29,12 +33,23 @@ h1 {
     border-radius: 10px;
     padding: 30px;
     width: 550px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    top: 150px;
+    margin: 0 auto;
+    text-align: justify;
+
 }
 
 img {
     width: 150px;
     border: 3px solid white;
     border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    top: -75px;
+    right: -75px;
+
 }
 
 a {
@@ -43,13 +58,27 @@ a {
     color: white;
 }
 
-.facebook {
-    background-color: #3b5998;
-}
-
 .twitter {
     background-color: #1da1f2;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: bold;
 }
+
+.facebook {
+    background-color: #3b5998;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
 
 .twitter:active {
     background-color: #0b7bc1;
