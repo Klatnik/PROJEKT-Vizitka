@@ -40,4 +40,22 @@ img {
 a {
     display: block;
     text-decoration: none;
+    color: white;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.twitter {
+    background-color: #1da1f2;
+}
+
+.twitter:active {
+    background-color: #0b7bc1;
+}
+
+
+.facebook:active {
+    background-color: #2b406e;
 }
