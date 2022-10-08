@@ -24,7 +24,6 @@ h1 {
     color: #d63031;
     font-size: 36px;
     font-weight: bold;
-    margin-bottom: 30px;
     margin:0
 }
 
@@ -56,35 +55,32 @@ a {
     display: block;
     text-decoration: none;
     color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .twitter {
     background-color: #1da1f2;
-    border-radius: 10px;
     margin-bottom: 5px;
     margin-top: 30px;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 10px;
-    font-weight: bold;
+ 
+    
 }
 
 .facebook {
     background-color: #3b5998;
-    border-radius: 10px;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 10px;
-    font-weight: bold;
 }
 
 
 
-.twitter:active {
+.twitter:hover, .twitter:focus, .twitter:active {
     background-color: #0b7bc1;
 }
 
 
-.facebook:active {
+.facebook:hover, .facebook:focus, .facebook:active {
     background-color: #2b406e;
 }
